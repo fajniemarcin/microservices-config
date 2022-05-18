@@ -1,8 +1,7 @@
 spring.h2.console.enabled: true
 spring:
+  datasource:
+    password: '{cipher}ae8a5f04c35fe88e1e36ada91fc785d0de7f730d563d3204c106b1bff15556ef06e1e17db3dde13bb795cf0efa6fdce4'
   jpa:
     hibernate:
       ddl-auto: none
-spring:
-  datasource:
-    password: '{cipher}ae8a5f04c35fe88e1e36ada91fc785d0de7f730d563d3204c106b1bff15556ef06e1e17db3dde13bb795cf0efa6fdce4'
